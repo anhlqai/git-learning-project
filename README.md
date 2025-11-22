@@ -24,5 +24,16 @@ Command note:
     - `git branch` để show các branch trong local
     - `git branch feature/new-button` một ví dụ để tạo 1 branch mới (feature/new-button) tại local
     - `git checkout feature/new-button` để chuyển sang nhánh vừa tạo để làm việc
+    - `git merge feature/new-button` để merge nhánh vào main
 
-Đây là phiên bản từ nhánh master/main (nhánh chính).
+    => quy trình làm việc
+        tạo nhánh, `git branch feature/new-branch`
+        `git checkout feature/new-feature`
+            -> thay đổi trên nhánh
+        `git add ...`,  `git commit -m ...`
+            -> commit thay đổi trên nhánh
+        `git checkout master (main)` để trở về nhánh chính trc khi merge
+        `git merge feature/new-feature`
+            -> merge nhánh vào master
+        `git push` do đã add và commit bên nhánh r nên có thể push luôn lên remote
+            -> push merge lên remote
