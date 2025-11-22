@@ -18,5 +18,5 @@ Command note:
     - `git remote -v` để xác nhận đã set remote thành công chưa
     - `git push -u origin master` push các thay đổi từ local (đã add) lên remote
         sau khi push, sẽ hiển thị tổng quan quá trình push
-
+    - `git pull origin master` để kéo những thay đổi từ remote về 
     
