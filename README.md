@@ -24,3 +24,6 @@ Command note:
     - `git branch` để show các branch trong local
     - `git branch feature/new-button` một ví dụ để tạo 1 branch mới (feature/new-button) tại local
     - `git checkout feature/new-button` để chuyển sang nhánh vừa tạo để làm việc
+
+
+tạo conflict trên nhánh conflict, thay đổi 1
