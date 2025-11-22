@@ -37,3 +37,11 @@ Command note:
             -> merge nhánh vào master
         `git push` do đã add và commit bên nhánh r nên có thể push luôn lên remote
             -> push merge lên remote
+
+
+# quy trình làm việc thực tế
+    git clone cả project về và thực hiện thay đổi trên nhánh đó
+        -> git switch sang nhánh làm việc
+            -> thực hiện làm việc và các thay đổi
+                -> git add / git commit
+                    -> git push (chỉ push các thay đổi trên nhánh đang làm việc và thực hiện push)
