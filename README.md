@@ -19,7 +19,7 @@ Command note:
     - `git push -u origin master` push các thay đổi từ local (đã add) lên remote
         sau khi push, sẽ hiển thị tổng quan quá trình push
     - `git pull origin master` để kéo những thay đổi từ remote về 
-    
+    123123123
 # làm việc với nhánh (branch)
     - `git branch` để show các branch trong local
     - `git branch feature/new-button` một ví dụ để tạo 1 branch mới (feature/new-button) tại local
